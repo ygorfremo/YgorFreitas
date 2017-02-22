@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-image:url(../img/fundo.png);
+	background-image:url(../img/FundoFantasminha.jpg);
 	background-repeat:no-repeat;
 	-webkit-background-size:auto;
 	-moz-background-size:auto;
@@ -141,7 +141,17 @@ hr{
 /*=========================================== AQUI COMEÇAM AS MEDIA QUERIES ==============================================*/
 
 @media (max-width: 767px) /*extra small*/ {
-
+body{
+	background-image:url(../img/FundoFantasminha-xs.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:auto;
+	-moz-background-size:auto;
+	-o-background-size:auto;
+	background-size:auto;
+	background-attachment: fixed;	
+	
+	
+} 
 #logo{
 	width:35%;	
 	
